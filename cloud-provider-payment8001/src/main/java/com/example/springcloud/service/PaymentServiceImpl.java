@@ -11,7 +11,7 @@ import javax.annotation.Resource;
  * @Date 22:37 2021/4/11
  */
 @Service
-public class PayementServiceImpl implements PayementService {
+public class PaymentServiceImpl implements PaymentService {
     @Resource
     PaymentDao paymentDao;
 
