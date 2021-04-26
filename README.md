@@ -129,7 +129,7 @@ Paxos算法分为两个阶段，具体如下：
 
 Proposer如果收到的大多数Acceptor相应，则选定Value值，并同步给Leaner，使未响应的Acceptor达成一致
 
-![1](分布式微服务.assets\QQ截图20210407182946.png)
+![1](分布式微服务.assets/QQ截图20210407182946.png)
 
 活锁：accept时被拒绝，加大N，重新accept，此时另一个proposer也进行相同的操作，导致accept一致失败，无法完成算法。
 
